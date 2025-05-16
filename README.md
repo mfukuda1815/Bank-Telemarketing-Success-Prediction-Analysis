@@ -6,7 +6,7 @@ In this project I will be attempting to predict the result of a phone call to se
 This data contains client information relating to long term deposit subscriptions from 2008 to 2010 and it was taken from UCI Machine Learning Depository (https://archive.ics.uci.edu/dataset/222/bank+marketing). The classification goal is to predict if the client will subscribe a term deposit (variable y). The dataset includes 45,000 instances and 17 variables. 
 
 # **Approach**
-1.  Pre-processing the data using dummy encoding for categorical variables, and an 80/20  train and test split.​
+1.  Pre-processed the dataset by checking for missing values, validating data types, and correcting unrealistic or misspelled entries. Identified class imbalance and addressed it using the SMOTE technique. Performed one-hot encoding for categorical variables to prepare the data for modeling, followed by an 80/20 train-test split.
 
 2. Developed the following 6 models to apply the tests: 
 - Logistic Regression
